@@ -1,20 +1,35 @@
 ﻿@model TextChat.ViewModels.ChatRoomViewModel
 <div class="chatroom--container">
-    <div class="chatroom--row">
-        <h1 class="chatroom--title">Chat-room - "room name"</h1>
-    </div>
-    <input type="text" hidden="hidden" value="@Model.Username" id="userInput"/>
-    <hr/>
-    <div class="chatroom--row">
-        <div class="col-6 chatroom--messages--container">
-            <ul id="messagesList"></ul>
+
+    <div class="chat">
+        <div class="chatroom--row">
+            <h1 class="chatroom--title">Chat-room - "room name"</h1>
         </div>
-    </div>
-    <div class="chatroom--row">
-        <div class="col-6 chatroom--input">
-            <input type="text" id="messageInput"/>
-            <input type="button" id="sendButton" value="Send"/>
+        <input type="text" hidden="hidden" value="@Model.Username" id="userInput"/>
+        <hr/>
+        <div class="chatroom--main">
+            <div class="col-3 chatroom--list--container">
+                <h2 class="chatroom--list--title">Chat rooms</h2>
+                <ul class="chatroom--list">
+                    <li>1: room</li>
+                    <li>2: room</li>
+                    <li>3: room</li>
+                    <li>4: room</li>
+                    <li>5: room</li>
+                </ul>
+            </div>
+            <div class="col-6 chatroom--messages--container">
+                <ul id="messagesList"></ul>
+            </div>
+            
         </div>
+         <div class="chatroom--row">
+                                <div class="col-6 chatroom--input">
+                                    <input type="text" id="messageInput"/>
+                                    <input type="button" id="sendButton" value="Send"/>
+                                </div>
+                            </div>
+       
     </div>
 </div>
 

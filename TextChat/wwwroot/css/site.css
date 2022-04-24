@@ -1,0 +1,133 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #3949ab;
+}
+header{
+    background-color: #00227b;
+}
+footer{
+    background-color: #00227b;
+    min-height: 10%;
+}
+main{
+    background-color: #3949ab;
+}
+
+
+/*Buttons*/
+.login--button{
+    background-color: #3949ab;
+    color: white;
+    border-radius: 10px;
+    min-width: 40%;
+    margin-top: 20px;
+}
+
+.login--button:hover{
+    background-color: #6f74dd;
+}
+
+.login--button--group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.register--button{
+    background-color: #fafafa;
+    color: #1e88e5;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    min-width: 40%;
+}
+.register--button:hover{
+    background-color: #c7c7c7;
+}
+
+
+/*CARD*/
+.login--container {
+    width: 60%;
+    max-width: 500px;
+    min-height: 800px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+.card-body{
+    background: #ffffff;
+    
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*ChatRoom*/
+.chatroom--container {
+    padding-bottom: 50px;
+    box-shadow: 0 40px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chatroom--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.chatroom--title{
+    color: white;
+    font-weight: bold;
+}
+.chatroom--messages--container {
+    /*box-shadow: 0 40px 30px 0 rgba(0, 0, 0, 0.2), 0 60px 200px 0 rgba(0, 0, 0, 0.19);*/
+    background: #ffffff;
+    min-height: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.chatroom--input{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#messageInput{
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-right: 5px;
+    padding: 5px
+}
+
+#messageInput ::selection{
+    border-color: #ffffff;
+    
+}
+
+#sendButton{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px
+}

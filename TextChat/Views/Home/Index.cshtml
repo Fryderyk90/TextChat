@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="loginCard" class="container align-items-center login--container">
+    <div class="row">
+        <div  class="col justify-content-center align-items-center">
+            <partial name="_login"/>
+        </div>
+    </div>
+</div>
+<div id="registerCard" class="container align-items-center login--container ">
+    <div class="row">
+        <div class="col justify-content-center align-items-center">
+            <partial name="_register"/>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="_framework/blazor.server.js"></script>
+}

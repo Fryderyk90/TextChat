@@ -1,0 +1,12 @@
+E:\repos\TextChat\TextChat.Core\bin\Debug\net6.0\TextChat.Core.deps.json
+E:\repos\TextChat\TextChat.Core\bin\Debug\net6.0\TextChat.Core.dll
+E:\repos\TextChat\TextChat.Core\bin\Debug\net6.0\ref\TextChat.Core.dll
+E:\repos\TextChat\TextChat.Core\bin\Debug\net6.0\TextChat.Core.pdb
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.csproj.AssemblyReference.cache
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.AssemblyInfoInputs.cache
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.AssemblyInfo.cs
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.csproj.CoreCompileInputs.cache
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.dll
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\ref\TextChat.Core.dll
+E:\repos\TextChat\TextChat.Core\obj\Debug\net6.0\TextChat.Core.pdb
